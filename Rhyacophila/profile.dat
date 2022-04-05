@@ -1,0 +1,9 @@
+# units
+ns
+# device	initial_time
+0	1500459735730883648
+# END_INIT_T0
+# Relative device timing error
+589132
+# END_INIT
+# event_id	command_queue_id	device_id	state	func_name	time

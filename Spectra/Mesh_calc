@@ -1,0 +1,358 @@
+TOTAL_PROCESSES 1
+
+@ProcessNo 0 1007 -1 0
+
+[OUTPUTDATA]
+Name	C:\Users\hambu\Dropbox\MA\TEIL02\Spectra\mesh_test
+
+[ACCELERATOR]
+Name	P3_lb_5m
+eGeV	6
+imA	100
+cirm	2304
+bunches	100
+pulsepps	60
+btps	
+bunchlength	8.28926
+bunchcharge	7.68532
+peakc	110.886
+emitt	1.01e-09
+coupl	0.01
+emittx	1e-009
+emitty	1e-011
+espread	0.0011
+betax	1.2
+alphax	0
+betay	4
+alphay	0
+eta	0
+deta	0
+etay	0
+detay	0
+qscanpos	5
+qscanfinv	0.05
+eGeV_prof	6
+imA_prof	100
+cirm_prof	2304
+bunches_prof	80
+pulsepps_prof	60
+btps_prof	
+bunchlength_prof	8.28926
+bunchcharge_prof	9.60665
+peakc_prof	
+emitt_prof	1.01e-09
+coupl_prof	0.01
+emittx_prof	
+emitty_prof	
+espread_prof	0.0011
+betax_prof	20
+alphax_prof	0
+betay_prof	2.38
+alphay_prof	0
+eta_prof	0
+deta_prof	0
+etay_prof	0
+detay_prof	0
+qscanpos_prof	5
+qscanfinv_prof	0.05
+eGeV_mpar	6
+imA_mpar	100
+cirm_mpar	2304
+bunches_mpar	80
+pulsepps_mpar	60
+btps_mpar	
+bunchlength_mpar	8.28926
+bunchcharge_mpar	9.60665
+peakc_mpar	
+emitt_mpar	1.01e-09
+coupl_mpar	0.01
+emittx_mpar	
+emitty_mpar	
+espread_mpar	0.0011
+betax_mpar	20
+alphax_mpar	0
+betay_mpar	2.38
+alphay_mpar	0
+eta_mpar	0
+deta_mpar	0
+etay_mpar	0
+detay_mpar	0
+qscanpos_mpar	5
+qscanfinv_mpar	0.05
+charge	3.15e-15
+pdatadivide	4
+pdatasmooth	1
+pdatadivide2d	4
+pdatasmooth2d	1
+colindex	1,2,3,4,5,6
+unitindex	0,0,0,0,0,0
+xinj	0
+yinj	0
+xdinj	0
+ydinj	0
+accelerator	0
+injectionebm	0
+bunchtype	0
+bunchunit	0
+transunit	0
+angleunit	0
+chargeunit	0
+isdistenergy	0
+isdisttemp	0
+isdistxxd	0
+isdistyyd	0
+isdistxy	0
+isqscan	0
+DistributionFile	
+BunchProfileName	P3_lb_5m
+EnergyProfileName	P3_lb_5m
+XProfileName	P3_lb_5m
+YProfileName	P3_lb_5m
+XYProfileName	P3_lb_5m
+
+[SOURCE]
+Name	U1_2m
+gap	20
+bx	0
+by	0.369302
+lu	2.9
+length	2
+periods	10
+kx	0
+ky	1.0
+ky2	0
+radius	24.6335
+bendlength	2.8
+fringelen	0.05
+segments	4
+Lint	0.2
+phi1	2
+phi2	0
+Dphi	1.33333
+Lmatch	0.5
+segerrseed	1
+kerr	1.0e-3
+phierr	0.1
+kickerrx	0.0
+kickerry	0.0
+taperfx	0
+taperfy	0
+bxoffset	0
+byoffset	0
+mltZ	0
+mltL	0.01
+mltG	1
+type	LIN_UND
+vertical	0
+segment_type	0
+segment_scheme	0
+segmented_error	0
+gaplink	0
+special_magnets	0
+natfocusx	0
+natfocusy	0
+mltType	0
+mltOrder	1
+mltpole	0
+funitgap	0
+funit	0
+dunit	0
+inip	0
+iniv	0
+isperlattice	0
+skipperiod	
+FieldMappingDataFile	
+FieldDataName	U1_2m
+GapDataName	U1_2m
+MultipoleData	U1_2m
+SegmentErrorData	U1_2m
+CustomSegmentData	U1_2m
+CustomBxyData	U1_2m
+
+[CALCULATION]
+Name	X-ray Beamline Parameter Set
+slit_dist	60
+epmin	2000
+epmax	4000
+de	1001
+fixep	7859.04
+phs_Dx	0.1
+minthetax	-0.0333333
+maxthetax	0.0333333
+min_x	-2
+max_x	2
+mesh_phs_x	20
+meshx	10
+phs_Dy	0.1
+minthetay	-0.0333333
+maxthetay	0.0333333
+min_y	-2
+max_y	2
+mesh_phs_y	20
+meshy	10
+mintheta	0
+maxtheta	0.025
+min_r	0
+max_r	1.5
+meshr	31
+minphi	0
+maxphi	90
+meshphi	31
+harmmin	1
+harmmax	15
+tgtharm	1
+detune	0.0
+srcopte	7859.04
+kymin	0.5
+kymax	2.15
+meshep	51
+thetax	0
+thetay	0
+posx	0
+posy	0
+slit_thetax	0
+slit_thetay	0
+slit_x	0
+slit_y	0
+Dthetax	0.025
+Dthetay	0.0166667
+Dx	1.5
+Dy	1
+slit_theta1	0.000833333
+slit_theta2	0.000833333
+slit_r1	0.05
+slit_r2	0.05
+slitvarx	2
+slitvary	2
+meshtime	10000
+gthetax	1.0
+gthetay	1.0
+hacceptance	0.1
+srcpeini	13000
+srcpefin	15000
+srcpemesh	201
+srcxfix	0.0
+srcyfix	0.0
+srcqxfix	0.0
+srcqyfix	0.0
+wiggleramp	0.000393085
+srcxini	-1
+srcxfin	1
+srcxmesh	51
+srcyini	-0.03
+srcyfin	0.03
+srcymesh	51
+srcqxini	-0.05
+srcqxfin	0.05
+srcqxmesh	51
+srcqyini	-0.01
+srcqyfin	0.01
+srcqymesh	51
+bpfcenter	12000
+bpfwidth	100
+bpfmaxeff	1
+transplotEmin	1000
+transplotEmax	100000
+transplotMesh	1000
+resolutionE1	2900
+resolutionDE1	190
+resolutionE2	5900
+resolutionDE2	220
+suffix_spectrum	dc0
+suffix_spectrum_res	drs
+suffix_spectrum_flt	dft
+suffix_sd_axisx	dtx
+suffix_sd_axisy	dty
+suffix_sd_mesh	dta
+suffix_efield	dta
+suffix_kd	dta
+suffix_brillc	dbr
+suffix_4dsrc	dsc
+fin_dist	0
+coherentsp	0
+auto	0
+autoratio	0.5
+easy	1
+epdiv	68938.9
+accuracy	3
+efieldtype	0
+withpd	1
+energy_conv	0
+filter	0
+filtertype	0
+bpftype	0
+outofslit	0
+zeroemitt	0
+zeroespread	0
+header	1
+unitlabel	1
+elogscale	0
+autoseed	0
+seednumber	1
+swapsize	1
+applfalloc	0
+applpdmem	0
+fixpointitem	0
+xsmoothing	1
+FilterDataName	X-ray Beamline Parameter Set
+GenericFilterDataName	X-ray Beamline Parameter Set
+
+[FILTERMATERIAL]
+Name	He
+Density	0.000179
+Atomic Number	Mass Ratio
+2	1
+
+[FILTERMATERIAL]
+Name	Be
+Density	1.84
+Atomic Number	Mass Ratio
+4	1
+
+[FILTERMATERIAL]
+Name	C
+Density	2.25
+Atomic Number	Mass Ratio
+6	1
+
+[FILTERMATERIAL]
+Name	Ar
+Density	0.001784
+Atomic Number	Mass Ratio
+18	1
+
+[FILTERMATERIAL]
+Name	N2
+Density	0.00125
+Atomic Number	Mass Ratio
+7	1
+
+[FILTERMATERIAL]
+Name	Al
+Density	2.69
+Atomic Number	Mass Ratio
+13	1
+
+[FILTERMATERIAL]
+Name	Air
+Density	0.001184
+Atomic Number	Mass Ratio
+7	0.755
+8	0.232
+18	0.013
+
+[FILTERMATERIAL]
+Name	Kapton
+Density	1.42
+Atomic Number	Mass Ratio
+1	0.026
+6	0.69
+7	0.073
+8	0.21
+
+[FILTERMATERIAL]
+Name	Cu
+Density	8.93
+Atomic Number	Mass Ratio
+29	1
+

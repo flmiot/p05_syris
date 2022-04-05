@@ -1,0 +1,73 @@
+# units
+ns
+# device	initial_time
+0	1494223125802255648
+# END_INIT_T0
+# Relative device timing error
+554085
+# END_INIT
+# event_id	command_queue_id	device_id	state	func_name	time
+0	0	0	QUEUED	enqueue_nd_range_kernel	1494223126078042720
+0	0	0	SUBMIT	enqueue_nd_range_kernel	1494223126078048768
+0	0	0	START	enqueue_nd_range_kernel	1494223126078053344
+0	0	0	END	enqueue_nd_range_kernel	1494223126078070752
+1	0	0	QUEUED	enqueue_nd_range_kernel	1494223126079343232
+1	0	0	SUBMIT	enqueue_nd_range_kernel	1494223126079347264
+1	0	0	START	enqueue_nd_range_kernel	1494223126079351136
+1	0	0	END	enqueue_nd_range_kernel	1494223126079360992
+2	0	0	QUEUED	enqueue_copy	1494223126350758464
+2	0	0	SUBMIT	enqueue_copy	1494223126350818048
+2	0	0	START	enqueue_copy	1494223126350824224
+2	0	0	END	enqueue_copy	1494223126350864512
+3	0	0	QUEUED	enqueue_nd_range_kernel	1494223126352109696
+3	0	0	SUBMIT	enqueue_nd_range_kernel	1494223126352113888
+3	0	0	START	enqueue_nd_range_kernel	1494223126352117728
+3	0	0	END	enqueue_nd_range_kernel	1494223126352155616
+4	0	0	QUEUED	enqueue_nd_range_kernel	1494223126496227328
+4	0	0	SUBMIT	enqueue_nd_range_kernel	1494223126496232736
+4	0	0	START	enqueue_nd_range_kernel	1494223126496236960
+4	0	0	END	enqueue_nd_range_kernel	1494223126496260064
+5	0	0	QUEUED	enqueue_nd_range_kernel	1494223126610790208
+5	0	0	SUBMIT	enqueue_nd_range_kernel	1494223126610795328
+5	0	0	START	enqueue_nd_range_kernel	1494223126610799808
+5	0	0	END	enqueue_nd_range_kernel	1494223126610814944
+6	0	0	QUEUED	enqueue_nd_range_kernel	1494223126744799584
+6	0	0	SUBMIT	enqueue_nd_range_kernel	1494223126744804992
+6	0	0	START	enqueue_nd_range_kernel	1494223126744809440
+6	0	0	END	enqueue_nd_range_kernel	1494223126744827904
+7	0	0	QUEUED	enqueue_nd_range_kernel	1494223126744902624
+7	0	0	SUBMIT	enqueue_nd_range_kernel	1494223126744905664
+7	0	0	START	enqueue_nd_range_kernel	1494223126744908960
+7	0	0	END	enqueue_nd_range_kernel	1494223126744916032
+8	0	0	QUEUED	enqueue_nd_range_kernel	1494223127056127104
+8	0	0	SUBMIT	enqueue_nd_range_kernel	1494223127056132224
+8	0	0	START	enqueue_nd_range_kernel	1494223127056137184
+8	0	0	END	enqueue_nd_range_kernel	1494223127056167904
+9	0	0	QUEUED	enqueue_nd_range_kernel	1494223127056302720
+9	0	0	SUBMIT	enqueue_nd_range_kernel	1494223127056306848
+9	0	0	START	enqueue_nd_range_kernel	1494223127056310240
+9	0	0	END	enqueue_nd_range_kernel	1494223127056318432
+10	0	0	QUEUED	enqueue_copy	1494223127056423136
+10	0	0	SUBMIT	enqueue_copy	1494223127056431904
+10	0	0	START	enqueue_copy	1494223127056436512
+10	0	0	END	enqueue_copy	1494223127056437600
+11	0	0	QUEUED	enqueue_nd_range_kernel	1494223127206441664
+11	0	0	SUBMIT	enqueue_nd_range_kernel	1494223127206446592
+11	0	0	START	enqueue_nd_range_kernel	1494223127206451168
+11	0	0	END	enqueue_nd_range_kernel	1494223127206470624
+12	0	0	QUEUED	enqueue_nd_range_kernel	1494223127323183328
+12	0	0	SUBMIT	enqueue_nd_range_kernel	1494223127323190944
+12	0	0	START	enqueue_nd_range_kernel	1494223127323195776
+12	0	0	END	enqueue_nd_range_kernel	1494223127323216864
+13	0	0	QUEUED	enqueue_nd_range_kernel	1494223127468613888
+13	0	0	SUBMIT	enqueue_nd_range_kernel	1494223127468621088
+13	0	0	START	enqueue_nd_range_kernel	1494223127468625888
+13	0	0	END	enqueue_nd_range_kernel	1494223127468647776
+14	0	0	QUEUED	enqueue_nd_range_kernel	1494223127596390272
+14	0	0	SUBMIT	enqueue_nd_range_kernel	1494223127596395648
+14	0	0	START	enqueue_nd_range_kernel	1494223127596399840
+14	0	0	END	enqueue_nd_range_kernel	1494223127596416992
+15	0	0	QUEUED	enqueue_copy	1494223127596721216
+15	0	0	SUBMIT	enqueue_copy	1494223127596730272
+15	0	0	START	enqueue_copy	1494223127596734400
+15	0	0	END	enqueue_copy	1494223127596774272

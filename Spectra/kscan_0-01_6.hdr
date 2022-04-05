@@ -1,0 +1,49 @@
+[SCANCONFIGS]
+ScanItem	Ky
+ScanOption	
+Initial	0.01
+Final	6
+Points	20
+Interval	0.315263
+InitialSerial	1
+Dimension	2
+
+[DESCRIPTIONS]
+1	:	-
+
+[SUFFICES]
+1	:	dc0
+
+[FILES]
+0.01	:	kscan_0-01_6-1
+0.325263	:	kscan_0-01_6-2
+0.640526	:	kscan_0-01_6-3
+0.955789	:	kscan_0-01_6-4
+1.27105	:	kscan_0-01_6-5
+1.58632	:	kscan_0-01_6-6
+1.90158	:	kscan_0-01_6-7
+2.21684	:	kscan_0-01_6-8
+2.5321	:	kscan_0-01_6-9
+2.84737	:	kscan_0-01_6-10
+3.16263	:	kscan_0-01_6-11
+3.47789	:	kscan_0-01_6-12
+3.79316	:	kscan_0-01_6-13
+4.10842	:	kscan_0-01_6-14
+4.42368	:	kscan_0-01_6-15
+4.73895	:	kscan_0-01_6-16
+5.05421	:	kscan_0-01_6-17
+5.36947	:	kscan_0-01_6-18
+5.68473	:	kscan_0-01_6-19
+6	:	kscan_0-01_6-20
+
+[ITEMS]
+1	:	Energy
+2	:	Flux
+3	:	PL(s1/s0)
+4	:	PC(s3/s0)
+5	:	PL45(s2/s0)
+6	:	1-|PL|
+
+[SCANDATANAME]
+Name	C:\Users\hambu\Dropbox\MA\TEIL02\Spectra\kscan_0-01_6
+
